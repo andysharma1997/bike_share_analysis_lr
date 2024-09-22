@@ -40,4 +40,4 @@
 - Reference publication: [Event Labeling and Ensemble Learning](http://dx.doi.org/10.1007/s13748-013-0040-3).
 
 ## Contact
-Created by [Shubham Sharma](www.linkedin.com/in/shubham-sharma-andy) - feel free to contact me!
+Created by [Shubham Sharma](https://www.linkedin.com/in/shubham-sharma-andy/) - feel free to contact me!
