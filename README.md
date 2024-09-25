@@ -24,7 +24,20 @@
 - The target variable for this regression task is `cnt` (total rentals), which combines both casual and registered users.
 
 ## Conclusions
+* The equation of the best fit line is given by:
+> cnt = 0.21 + 0.23 × yr - 0.10 × holiday + 0.55 × atemp - 0.15 × hum - 0.16 × windspeed 
+    + 0.11 × season_summer + 0.16 × season_winter - 0.05 × weather_mist_cloud 
+    - 0.23 × weather_light_snow_rain + 0.08 × Quarter_JulAugSep
+    
+* The close alignment of R2 and adjusted R2 values between the training and test sets in a linear regression model indicates effective generalization. This similarity suggests the model avoids overfitting to the training data and is likely to perform consistently on new, unseen data.
 
+* Three key feature variables, atemp, yr, and season_winter, exhibit the highest coefficient values, indicating their significant impact.
+
+* Leverage High-Impact Features: Focus on features such as temp, yr, and season_winter as they exhibit the highest coefficient values, indicating significant impact on bike demand.
+
+* Seasonal Strategies: Develop targeted marketing and pricing strategies for different seasons, particularly emphasizing promotions during Summer and Winter. Also the company can reduce the expences during heavey rain and snow people will mostly use cars instead of rental bikes.
+
+* Optimize Operational Planning: Adjust bike availability and distribution based on the significant features identified, optimizing resources for peak demand periods.
 
 ## Technologies Used
 - Python==3.10.12
